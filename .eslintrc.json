@@ -36,6 +36,17 @@
         "arrow-body-style": 0,
         "react/no-array-index-key": 0,
         "react/function-component-definition": 0,
-        "import/prefer-default-export": 0
+        "import/prefer-default-export": 0,
+        "jsx-a11y/label-has-associated-control": ["error", {
+            "required": {
+              "some": ["nesting", "id"]
+            }
+          }],
+          "jsx-a11y/label-has-for": ["error", {
+            "required": {
+              "some": ["nesting", "id"]
+            }
+          }]
     }
-}
+ }
+
